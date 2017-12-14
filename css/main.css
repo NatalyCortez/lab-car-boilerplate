@@ -1,1 +1,34 @@
 /* Los estilos de tu proyecto */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin-top: 8rem;
+  color: #fff;
+}
+.logo {
+  width: 11rem;
+  margin: 3rem 0 0 3rem;
+}
+.w-border {
+  outline: 1px solid #fff;
+}
+.box-one {
+  background-image: url('../assets/images/taxi.jpg');
+  height: 80em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.orange-box {
+  background: rgb(247, 182, 23);
+  height: 20rem;
+
+}
+/*Clases reutilizables*/
+.left {
+  float: left;
+}
+.bg-white {
+  background: #fff;
+}
