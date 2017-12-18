@@ -24,7 +24,9 @@ Vista previa :
 -------
 
 1.VERSIÓN WEB :![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/model.png)
-2.VERSIÓN MOBILE :![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/movil.png)
 ![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/modal-inicio-sesion.png)
 ![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/modal-registrate.png)
 ![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/modal-conductor.png)
+
+
+2.VERSIÓN MOBILE :![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/movil.png)
