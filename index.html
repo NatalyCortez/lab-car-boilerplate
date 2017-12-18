@@ -10,7 +10,7 @@ maximum-scale=1">
     <link rel="icon" href="assets/images/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>LabCar</title>
+    <title>Lab&#60;ar</title>
   </head>
   <body>
     <div class="container">
@@ -33,12 +33,37 @@ maximum-scale=1">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Viajar <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Conducir</a></li>
-                <li><a href="#">Iniciar sesion</a></li>
+                <li><a href="#ventana1" data-toggle="modal">Iniciar sesion</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
       </header>
+    </div>
+    <!--Modal 'Iniciar sesion' -->
+    <div class="modal fade" id="ventana1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-green center">
+          <div class="modal-header">
+            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/images/user.png" class="img-responsive center-block text-center">
+            <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-user" aria-hidden="true"></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+            </div>
+            <br>
+            <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-lock" aria-hidden="true"></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+            </div>
+            <button type="button" name="button" class="btn bg-orange color-white">LOGIN</button>
+            <h4>Forgot password? <a id="a-red">Click here</a></h4>
+          </div>
+        </div>
+      </div>
+
     </div>
     <!-- Imagen -->
     <div class="container-fluid">
@@ -47,7 +72,7 @@ maximum-scale=1">
           <div class="col-xs-10 col-md-4 orange-box">
             <h1>Comienza a viajar</h1>
             <h1>con <span>Lab&#60;ar</span></h1>
-            <button type="button" id="myButton" class="btn bg-white b-download" autocomplete="off">
+            <button type="button" id="myButton" class="btn bg-white b-download">
     Descarga el app
 </button>
           </div>
@@ -74,9 +99,18 @@ maximum-scale=1">
           <div class="col-xs-12 col-md-12 opacity">
             <h1>Conduce cuando quieras</h1>
             <h1>LabCar es una opción flexible para alcanzar tus metas financieras.</h1>
-            <button type="button" id="myButton" class="btn bg-orange color-white" autocomplete="off">
-    Conviertete en conductor
-</button>
+            <button type="button" id="myButton" class="btn bg-orange color-white" data-toggle="modal" href="#ventana3">Conviertete en conductor
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal del conductor -->
+    <div class="modal fade"id="ventana3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+
           </div>
         </div>
       </div>
@@ -101,7 +135,7 @@ maximum-scale=1">
             </button>
           </div>
           <div class="col-xs-10">
-            <img src="assets/images/maps.jpg" alt="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7801.601759792233!2d-77.0207344!3d-12.125772399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1513623722767" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
           </div>
           </div>
