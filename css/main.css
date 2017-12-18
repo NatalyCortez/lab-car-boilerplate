@@ -58,6 +58,9 @@ body {
 .bg-orange {
   background: rgb(247, 182, 23);
 }
+.box-four {
+  background: rgb(66, 64, 64);
+}
 /*Clases reutilizables*/
 .left {
   float: left;
