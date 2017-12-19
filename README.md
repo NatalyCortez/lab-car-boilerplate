@@ -29,7 +29,12 @@ Vista previa :
 ![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/modal-conductor.png)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 72acf669345dd3d4e700ec0fc533f30a4a509ae7
 2.VERSIÓN MOBILE :![](https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/movil.png)
+=======
+2.VERSIÓN MOBILE :![]
+(https://raw.githubusercontent.com/NatalyCortez/lab-car-boilerplate/master/assets/images/movil.png)
+>>>>>>> d17900ecfd3f1936508bad03538c261ac040b088
