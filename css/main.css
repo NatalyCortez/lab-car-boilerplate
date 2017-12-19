@@ -55,11 +55,14 @@ body {
   height: 60rem;
   width: 100%;
 }
-.bg-orange {
-  background: rgb(247, 182, 23);
-}
 .box-four {
   background: rgb(66, 64, 64);
+}
+#a-red {
+  color: rgb(189,8,28);
+}
+ul {
+  list-style: none;
 }
 /*Clases reutilizables*/
 .left {
@@ -70,4 +73,13 @@ body {
 }
 .color-white {
   color: #fff;
+}
+.bg-orange {
+  background: rgb(247, 182, 23);
+}
+.bg-green {
+  background: rgb(8,172,157);
+}
+.center {
+  text-align: center;
 }
